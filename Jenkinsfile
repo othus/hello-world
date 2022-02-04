@@ -14,9 +14,6 @@ pipeline {
 
             }
         }
-        stage('test') {
-            sh 'echo "this is a test"'
-       }
     }
 }
 
